@@ -144,17 +144,6 @@ define(["require", "exports"], function (require, exports) {
 				},
 			},
 
-			"printidentity()": {
-				"insertText": "printidentity()",
-				"documentation": {
-					value: [
-						"```lua\nfunction printidentity()\n```",
-						"",
-						"Show current identity"
-					].join("\n")
-				},
-			},
-
 			"rawequal()": {
 				"insertText": "rawequal(${1:v1}, ${2:v2})",
 				"documentation": {
