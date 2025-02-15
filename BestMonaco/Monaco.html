@@ -93,18 +93,18 @@ editor = monaco.editor.create(document.getElementById('container'), {
     ].join('\n'),
     language: 'lua',
     theme: "net-theme-dark",
-    folding: false,
+    folding: true,
     scrollbar: {
-        verticalHasArrows: false,
+        verticalHasArrows: true,
     },
-    dragAndDrop: false,
-    links: false,
+    dragAndDrop: true,
+    links: true,
     minimap: {
         enabled: false,
     },
     showFoldingControls: "always",
-    smoothScrolling: false,
-    quickSuggestions: false,
+    smoothScrolling: true,
+    quickSuggestions: true,
 });
 
 				
